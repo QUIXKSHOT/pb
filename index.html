@@ -1,0 +1,44 @@
+<!doctype html>
+<!-- hi skid -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>How to hack (Kaden's Guide)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="splash" class="splash" role="button" tabindex="0" aria-label="Click to enter">
+    <div class="splash-inner">
+      <div class="splash-text">Click to enter</div>
+      <div class="splash-sub"></div>
+    </div>
+  </div>
+
+  <main id="site" class="site" aria-hidden="true">
+    <video id="bgVideo" class="bg-video" muted loop playsinline preload="auto" aria-hidden="true">
+      <source src="kaden.mp4" type="video/mp4" />
+      Your browser does not support the background video.
+    </video>
+
+    <audio id="bgMusic" preload="auto">
+      <source src="music.mp3" type="audio/mpeg" />
+      Your browser does not support the background audio.
+    </audio>
+
+    <div class="center-wrap" role="region" aria-label="Featured image">
+      <img id="profilePfp" class="player-pfp" src="pfp.jpg" alt="Profile picture" />
+
+      <div class="player-outer">
+        <div class="player-container" aria-hidden="false">
+          <img id="playerGif" src="center.gif" alt="Featured animation" class="player-video" />
+        </div>
+      </div>
+
+      <div class="player-caption">Discord #1 plug .gg/discoplug</div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
